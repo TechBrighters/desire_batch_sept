@@ -26,7 +26,7 @@ if(isset($_POST) && !empty($_POST)){
     <title>CRUD</title>
     <body>
         <form method="post" action="edit.php?id=<?php echo $id;?>">
-            Name : <input type="text" name="name" value="<?php echo $student['first_name'];?>"><br/>
+            First Name : <input type="text" name="name" value="<?php echo $student['first_name'];?>"><br/>
             Email : <input type="text" name="email" value="<?php echo $student['email'];?>"><br/>
             Fees : <input type="text" name="fees" value="<?php echo $student['fees'];?>"><br/>
             City : <input type="text" name="city" value="<?php echo $student['city'];?>"><br/>
